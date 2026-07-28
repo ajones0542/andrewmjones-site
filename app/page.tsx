@@ -46,7 +46,7 @@ export default function Home() {
       <section className="mt-20 sm:mt-28">
         <Reveal>
           <h2 className="font-mono text-sm font-semibold uppercase tracking-wider text-mist">
-            Personal projects
+            Personal projects: apps I&rsquo;ve designed, built, and deployed
           </h2>
         </Reveal>
         <div className="mt-6 flex flex-wrap gap-5">
