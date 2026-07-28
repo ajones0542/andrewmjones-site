@@ -28,7 +28,7 @@ const plexMono = IBM_Plex_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.andrewmjones.com"),
   title: {
-    default: "Andrew Jones · Experienced Product Leader",
+    default: "Andrew Jones · Experienced Product Builder",
     template: "%s · Andrew Jones",
   },
   description:

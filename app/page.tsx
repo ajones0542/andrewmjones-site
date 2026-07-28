@@ -12,7 +12,7 @@ export default function Home() {
     <div className="mx-auto max-w-6xl px-6 py-10 sm:px-8 sm:py-14">
       <Reveal>
         <p className="font-mono text-xs uppercase tracking-wide text-mist">
-          Experienced Product Leader
+          Experienced Product Builder
         </p>
         <h1 className="mt-3 max-w-3xl font-display text-4xl font-bold leading-[1.1] text-ink sm:text-5xl">
           Ten years shipping 0→1.
