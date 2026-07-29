@@ -68,7 +68,7 @@ export default function Home() {
               Design explorations &rarr;
             </h2>
             <p className="mt-2 max-w-xl text-mist">
-              Personal UX explorations and research.
+              Design consulting and projects of personal interest.
             </p>
           </Link>
         </Reveal>

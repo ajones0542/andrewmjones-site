@@ -19,6 +19,89 @@ export const writings: Writing[] = [
 
 export const designPieces: DesignPiece[] = [
   {
+    slug: "zillow-usability-testing",
+    title: "Zillow Usability Testing and Redesign",
+    description:
+      "An unsolicited usability teardown of Zillow's iOS app, prompted by house-hunting frustrations of my own.",
+    disclaimer:
+      "Several of the issues identified here have since been addressed by Zillow independently.",
+    heroImage: {
+      src: "/images/design/zillow.png",
+      alt: "Before-and-after comparison of Zillow's filtering UI following the usability-tested redesign",
+      width: 1024,
+      height: 897,
+    },
+    blocks: [
+      {
+        type: "text",
+        paragraphs: [
+          "When my wife and I were house-hunting after our first baby, we both ran into friction using Zillow's app. I wondered if it was just us, so I ran a usability test, interviewing seven people (five is usually enough to surface most issues) as they worked through two scenarios: searching within a $900K budget, then adjusting to a $5M one.",
+        ],
+      },
+      {
+        type: "list",
+        heading: "Two primary issues stood out, among several found",
+        items: ["Non-intuitive filtering", "A confusing price slider"],
+      },
+      {
+        type: "image",
+        src: "/images/design/zillow/ui-changes-before.png",
+        alt: "Annotated screenshot of Zillow's original filter screen, marking specific points of user confusion around applying filters and the price slider",
+        width: 850,
+        height: 1357,
+        size: "large",
+        caption: "What I observed in the original app.",
+      },
+      {
+        type: "text",
+        paragraphs: [
+          "I built a proto-persona and task flow from a National Association of Realtors survey, categorized what I'd seen into recurring themes, then sketched alternative solutions on paper before building a clickable prototype in Marvel.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/images/design/zillow/categorized-observations.jpg",
+        alt: "Sticky notes categorizing usability observations into themes like applying filter, price slider, and nearby button",
+        width: 1239,
+        height: 1009,
+        caption: "Synthesizing observations into recurring themes.",
+      },
+      {
+        type: "image",
+        src: "/images/design/zillow/ui-changes-after.png",
+        alt: "Annotated screenshot of the redesigned filter screen, replacing the price slider with dropdowns and adding a clear call-to-action button",
+        width: 850,
+        height: 1393,
+        size: "large",
+        caption: "The redesign: dropdowns instead of a slider, one clear call-to-action.",
+      },
+      {
+        type: "video",
+        youtubeId: "yglB2sSgyE4",
+        caption: "A walkthrough of the redesigned prototype.",
+      },
+      {
+        type: "text",
+        paragraphs: [
+          "I re-tested the prototype with seven new participants running the same two tasks. This time, none of the original issues showed up.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/images/design/zillow/before-after-validation.png",
+        alt: "Chart showing the number of participants who ran into each issue before versus after the redesign, dropping from four or five out of seven to zero",
+        width: 1140,
+        height: 200,
+      },
+      {
+        type: "text",
+        paragraphs: [
+          "Zillow may have had reasons for their original design I couldn't see as an outsider, but the before/after comparison was a clean piece of evidence that the changes worked.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "see-around-me",
     title: "See Around Me",
     description:
@@ -110,89 +193,6 @@ export const designPieces: DesignPiece[] = [
         alt: "Whiteboard affinity map organizing Fawn interview responses into consumer, user, and merchant themes",
         width: 2000,
         height: 960,
-      },
-    ],
-  },
-  {
-    slug: "zillow-usability-testing",
-    title: "Zillow Usability Testing and Redesign",
-    description:
-      "An unsolicited usability teardown of Zillow's iOS app, prompted by house-hunting frustrations of my own.",
-    disclaimer:
-      "Several of the issues identified here have since been addressed by Zillow independently.",
-    heroImage: {
-      src: "/images/design/zillow.png",
-      alt: "Before-and-after comparison of Zillow's filtering UI following the usability-tested redesign",
-      width: 1024,
-      height: 897,
-    },
-    blocks: [
-      {
-        type: "text",
-        paragraphs: [
-          "When my wife and I were house-hunting after our first baby, we both ran into friction using Zillow's app. I wondered if it was just us, so I ran a usability test, interviewing seven people (five is usually enough to surface most issues) as they worked through two scenarios: searching within a $900K budget, then adjusting to a $5M one.",
-        ],
-      },
-      {
-        type: "list",
-        heading: "Two primary issues stood out, among several found",
-        items: ["Non-intuitive filtering", "A confusing price slider"],
-      },
-      {
-        type: "image",
-        src: "/images/design/zillow/ui-changes-before.png",
-        alt: "Annotated screenshot of Zillow's original filter screen, marking specific points of user confusion around applying filters and the price slider",
-        width: 850,
-        height: 1357,
-        size: "large",
-        caption: "What I observed in the original app.",
-      },
-      {
-        type: "text",
-        paragraphs: [
-          "I built a proto-persona and task flow from a National Association of Realtors survey, categorized what I'd seen into recurring themes, then sketched alternative solutions on paper before building a clickable prototype in Marvel.",
-        ],
-      },
-      {
-        type: "image",
-        src: "/images/design/zillow/categorized-observations.jpg",
-        alt: "Sticky notes categorizing usability observations into themes like applying filter, price slider, and nearby button",
-        width: 1239,
-        height: 1009,
-        caption: "Synthesizing observations into recurring themes.",
-      },
-      {
-        type: "image",
-        src: "/images/design/zillow/ui-changes-after.png",
-        alt: "Annotated screenshot of the redesigned filter screen, replacing the price slider with dropdowns and adding a clear call-to-action button",
-        width: 850,
-        height: 1393,
-        size: "large",
-        caption: "The redesign: dropdowns instead of a slider, one clear call-to-action.",
-      },
-      {
-        type: "video",
-        youtubeId: "yglB2sSgyE4",
-        caption: "A walkthrough of the redesigned prototype.",
-      },
-      {
-        type: "text",
-        paragraphs: [
-          "I re-tested the prototype with seven new participants running the same two tasks. This time, none of the original issues showed up.",
-        ],
-      },
-      {
-        type: "image",
-        src: "/images/design/zillow/before-after-validation.png",
-        alt: "Chart showing the number of participants who ran into each issue before versus after the redesign, dropping from four or five out of seven to zero",
-        width: 1140,
-        height: 200,
-      },
-      {
-        type: "text",
-        paragraphs: [
-          "Zillow may have had reasons for their original design I couldn't see as an outsider, but the before/after comparison was a clean piece of evidence that the changes worked.",
-        ],
       },
     ],
   },

@@ -6,7 +6,7 @@ import { designPieces, writings } from "@/lib/content/design";
 export const metadata: Metadata = {
   title: "Design Explorations",
   description:
-    "Personal UX and design explorations from Andrew Jones, not client work, just topics of interest.",
+    "Design consulting and projects of personal interest from Andrew Jones.",
 };
 
 export default function DesignPage() {
@@ -17,9 +17,8 @@ export default function DesignPage() {
           Design explorations
         </h1>
         <p className="mt-3 max-w-xl text-mist">
-          A few personal UX explorations and some writing on the topic
-          &mdash; not employer case studies, just things I dug into out of
-          interest.
+          Design consulting and projects of personal interest, plus some
+          writing on the topic.
         </p>
       </Reveal>
 

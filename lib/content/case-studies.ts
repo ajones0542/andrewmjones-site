@@ -363,7 +363,8 @@ export const caseStudies: CaseStudy[] = [
       "Strings had users, but the product tried to be a little bit for everyone. Which handful of use cases should the roadmap narrow in on first?",
     metrics: [
       { value: "+14%", label: "D7 retention" },
-      { value: "21", label: "users tested" },
+      { value: "21", label: "user interviews" },
+      { value: "3", label: "core personas & JTBD" },
     ],
     heroImage: {
       src: "/images/case-studies/strings/strings-image-1024x509.png",
@@ -399,7 +400,7 @@ export const caseStudies: CaseStudy[] = [
       {
         type: "text",
         paragraphs: [
-          "Of 21 users tested, only 3 knew how to interact with the app's cards, and none understood all the icons: concrete, prioritizable findings rather than vague complaints. We recorded every session, wrote notes after each, and sorted findings into UX issues (easy to categorize) and use cases, using Jobs-to-be-Done in the form of Users/Situations/Motivations/Outcomes.",
+          "Of 21 user interviews, only 3 knew how to interact with the app's cards, and none understood all the icons: concrete, prioritizable findings rather than vague complaints. We recorded every session, wrote notes after each, and sorted findings into UX issues (easy to categorize) and use cases, using Jobs-to-be-Done in the form of Users/Situations/Motivations/Outcomes.",
         ],
       },
       {
