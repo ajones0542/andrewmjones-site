@@ -21,10 +21,11 @@ export default function Home() {
         </h1>
         <p className="mt-4 max-w-4xl text-lg text-mist">
           Product management experience spanning large enterprise to
-          consumer startups, five of those years working with ML/AI.
+          consumer startups, including five years working with ML/AI.
           I&rsquo;ve shipped products used by millions of end users at some
-          of the biggest companies, plus several consumer apps I designed
-          and built myself.
+          of the biggest companies. I&rsquo;ve also designed and built
+          several apps independently, three of which are currently live on
+          app stores.
         </p>
       </Reveal>
 

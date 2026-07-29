@@ -10,7 +10,7 @@ export const caseStudies: CaseStudy[] = [
       "Local news and events are scattered across thousands of unstructured sources. How do you turn that into a reliable, geocoded feed without manual curation?",
     metrics: [
       { value: "3", label: "platforms shipped" },
-      { value: "1,000s", label: "articles processed daily" },
+      { value: "100,000+", label: "articles processed" },
       { value: "2", label: "paying data customers" },
     ],
     heroImage: {
@@ -25,6 +25,22 @@ export const caseStudies: CaseStudy[] = [
         heading: "Context",
         paragraphs: [
           "NewsMap is a local news and events app I founded and have been building full-time since September 2024. At its core is an AI content pipeline that aggregates and geolocates local news, turning scattered, unstructured articles into a reliable, personalized feed.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Early traction",
+        paragraphs: [
+          "When I first posted NewsMap as a side project on Reddit, it got far more attention than I expected: 77K+ views, 768 upvotes, and 169 comments, with 99% positive sentiment.",
+        ],
+      },
+      {
+        type: "stats",
+        stats: [
+          { value: "77K+", label: "Reddit post views" },
+          { value: "768", label: "upvotes" },
+          { value: "169", label: "comments" },
+          { value: "99%", label: "positive sentiment" },
         ],
       },
       {
@@ -53,7 +69,7 @@ export const caseStudies: CaseStudy[] = [
         type: "stats",
         stats: [
           { value: "3", label: "platforms shipped (iOS, Android, web)" },
-          { value: "1,000s", label: "articles processed daily" },
+          { value: "100,000+", label: "articles processed" },
           { value: "2", label: "paying data customers" },
         ],
       },
@@ -65,7 +81,7 @@ export const caseStudies: CaseStudy[] = [
     company: "Brightidea",
     title: "Project Room",
     problem:
-      "Brightidea's innovation platform reaches millions of end users at customers like Nike, Amazon, and Merck, yet enterprise teams were managing complex ideas outside it. How do you close that gap without turning Brightidea into a project-management tool?",
+      "Brightidea's innovation platform reaches millions of end users at customers like Nike, Amazon, and Merck, yet enterprise teams were sometimes managing complex ideas outside it. How do you close that gap without turning Brightidea into a project-management tool?",
     metrics: [
       { value: "90%+", label: "customer adoption" },
       { value: "+6%", label: "avg. session time" },
@@ -89,7 +105,7 @@ export const caseStudies: CaseStudy[] = [
         heading: "Context",
         paragraphs: [
           "Brightidea provides an Innovation Management platform used by large enterprises, including Nike, Amazon, GE, Adobe, 3M, and Merck, built around a highly customizable pipeline that admins adjust to their own innovation or R&D process.",
-          "Project Room was a collaborative workspace for teams to work on a complex idea with multiple related artifacts (docs, whiteboards, sheets, tasks) so everything stayed unified as it moved through the innovation pipeline. It started as a gap I identified in how customers actually worked: some teams were managing complex ideas with tools entirely outside our platform.",
+          "Project Room was a collaborative workspace for teams to work on a complex idea with multiple related artifacts (docs, whiteboards, sheets, tasks) so everything stayed unified as it moved through the innovation pipeline. It started by identifying a gap in how customers actually worked: some teams were managing complex ideas with tools entirely outside our platform.",
           "I owned it end to end, from discovery through GA release, measurement, and post-release improvements.",
         ],
       },
@@ -98,7 +114,7 @@ export const caseStudies: CaseStudy[] = [
         heading: "Signal & discovery",
         paragraphs: [
           "A conversation with a CSM surfaced that some customer teams were using alternative tools to manage complex ideas, especially when multiple related documents or artifacts were involved.",
-          "I talked to seven customers across different industries and found this wasn't an isolated need. Two primary needs kept surfacing: managing files/artifacts, and team coordination. Workarounds included Notion, Box, Microsoft, and Google, but none of them were a good fit.",
+          "I talked to several customers across different industries and found this wasn't an isolated need. While most ideas don't need a Project Room, enough did to warrant further investigation. Workarounds included Notion, Box, Microsoft, and Google, but none of them were a perfect fit.",
         ],
       },
       {
@@ -113,7 +129,7 @@ export const caseStudies: CaseStudy[] = [
         heading: "Why prioritize it",
         paragraphs: [
           "Project Room wasn't on the roadmap. Three things changed that: it represented a gap in our core competency (the innovation process itself), it was high need/value for customers with no clear alternative, and there was clear upside for us in adoption, retention, and upsell.",
-          "The product team, two CSMs, and the CEO reviewed the plan, and I got approval to pursue it as a limited proof of concept to get feedback from a few test customers.",
+          "Initially there was approval to pursue it as a limited proof of concept and to get feedback from a few test customers.",
         ],
       },
       {
@@ -128,7 +144,7 @@ export const caseStudies: CaseStudy[] = [
         type: "text",
         heading: "From proof of concept to GA",
         paragraphs: [
-          "Working with design and engineering, we had initial designs within a few days, and a senior engineer built a functional proof of concept (no persistence, no drag-and-drop polish) within about two weeks.",
+          "I partnered with a designer and a senior engineer. After prioritizing initial requirements, we had designs for initial features within a few days. It took about a week and a half to build a functional proof of concept (no persistence, no drag-and-drop polish) that we could try internally and share with clients.",
           "I sliced the roadmap into Now/Next/Later. The first version let a single user add native files and links to collect a project's artifacts in one place; we shipped that narrow version to a few customers to confirm we were building the right thing before adding persistence, team management, folders, room settings, reordering, a business-impact page, and task management.",
         ],
       },
@@ -163,17 +179,17 @@ export const caseStudies: CaseStudy[] = [
       {
         type: "stats",
         stats: [
-          { value: "90%+", label: "adoption today" },
-          { value: "85%", label: "adoption within 3 months of GA" },
-          { value: "+6%", label: "average session time" },
+          { value: "90%+", label: "customer adoption" },
+          { value: "+6%", label: "avg. session time" },
+          { value: "12 wks", label: "build to GA" },
         ],
       },
       {
         type: "text",
         heading: "Hindsight",
         paragraphs: [
-          "Task management was the one place reality outran the plan. Team sizes on individual projects ended up larger than we'd anticipated, and customers kept asking for more: lazy loading, sorting, filters, notes. We built it, but it ran counter to the original goal of keeping Project Room simple, and required working through pushback from the CEO.",
-          "In hindsight, it was a good problem to have: some teams were more active on individual ideas than we expected. But most ideas don't need a Project Room, and of those, only some need task management. A reminder that a feature's most vocal users aren't always representative of everyone using it.",
+          "Task management was the one place reality outran the plan. In some cases, team sizes on individual ideas/projects ended up even larger than we'd anticipated. To serve them better, we needed to add lazy loading, sorting, filters, and notes for tasks. We added these, but it ran counter to the original goal of keeping Project Room very simple.",
+          "In hindsight, it was a good problem to have: some teams were more active on individual ideas than we expected.",
         ],
       },
     ],
