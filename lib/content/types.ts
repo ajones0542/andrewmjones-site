@@ -5,7 +5,7 @@ export type Metric = {
 
 export type ContentBlock =
   | { type: "text"; heading?: string; paragraphs: string[] }
-  | { type: "image"; src: string; alt: string; caption?: string; width: number; height: number; size?: "default" | "large" }
+  | { type: "image"; src: string; alt: string; caption?: string; width: number; height: number; size?: "default" | "medium" | "large" }
   | { type: "image-pair"; images: { src: string; alt: string; width: number; height: number }[] }
   | { type: "stats"; stats: Metric[] }
   | { type: "list"; heading?: string; items: string[] }

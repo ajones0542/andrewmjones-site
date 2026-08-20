@@ -37,7 +37,8 @@ function BlockRenderer({ block }: { block: ContentBlock }) {
 
     case "image": {
       const isPortrait = block.height > block.width * 1.3;
-      const portraitMaxWidth = block.size === "large" ? "30rem" : "20rem";
+      const portraitMaxWidth =
+        block.size === "large" ? "30rem" : block.size === "medium" ? "22.5rem" : "20rem";
       return (
         <figure
           className={isPortrait ? "mx-auto" : undefined}

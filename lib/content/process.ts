@@ -30,7 +30,7 @@ export const processStages: ProcessStage[] = [
   },
   {
     number: "02",
-    title: "Understand user needs, then document them",
+    title: "The Cole Group",
     blocks: [
       {
         type: "text",
@@ -46,67 +46,8 @@ export const processStages: ProcessStage[] = [
         caption: "The task flow I built to map the recruiting process and pinpoint friction.",
         width: 484,
         height: 1024,
-        size: "large",
+        size: "medium",
       },
-    ],
-  },
-  {
-    number: "03",
-    title: "Build it myself, 0 to 1",
-    blocks: [
-      {
-        type: "text",
-        paragraphs: [
-          "DishDecoder, an AI photo-to-recipe app, and Baseline, a dopamine-reset app for focus, were both designed screen by screen in Figma before I wrote a line of Swift, then built and shipped to the App Store.",
-        ],
-      },
-      {
-        type: "image",
-        src: "/images/builds/dishdecoder/figma-working-screenshot.webp",
-        alt: "Figma file showing DishDecoder's onboarding, camera, and recipe screens designed and annotated before development",
-        width: 1600,
-        height: 1072,
-      },
-      {
-        type: "image",
-        src: "/images/builds/baseline/figma-working-screenshot.png",
-        alt: "Figma file showing Baseline's onboarding, home timeline, settings, and progress screens designed before development",
-        width: 2000,
-        height: 1295,
-      },
-    ],
-  },
-  {
-    number: "04",
-    title: "Turn research into wireframes, then interfaces",
-    blocks: [
-      {
-        type: "text",
-        paragraphs: [
-          "After my wife and I ran into friction using Zillow's app while house-hunting, I usability-tested it with seven participants, redesigned the filter and price-slider UI, then re-tested with seven new people. The issues that showed up in every original session didn't appear once in the redesign.",
-        ],
-      },
-      {
-        type: "image",
-        src: "/images/design/zillow/ui-changes-after.png",
-        alt: "Annotated screenshot of the redesigned filter screen, replacing the price slider with dropdowns and adding a clear call-to-action button",
-        caption: "The redesign: dropdowns instead of a slider, one clear call-to-action.",
-        width: 850,
-        height: 1393,
-        size: "large",
-      },
-      {
-        type: "link",
-        label: "See the full Zillow write-up and prototype video",
-        href: "/design/zillow-usability-testing",
-        description: "Before/after results from seven-person usability tests, run twice.",
-      },
-    ],
-  },
-  {
-    number: "05",
-    title: "Owning UX under real constraints",
-    blocks: [
       {
         type: "text",
         paragraphs: [
@@ -130,7 +71,35 @@ export const processStages: ProcessStage[] = [
     ],
   },
   {
-    number: "06",
+    number: "03",
+    title: "Build it myself, 0 to 1",
+    blocks: [
+      {
+        type: "text",
+        paragraphs: [
+          "DishDecoder, an AI photo-to-recipe app, and Baseline, a dopamine-reset app for focus, were both designed screen by screen in Figma before I wrote a line of Swift, then built and shipped to the App Store.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/images/builds/dishdecoder/figma-working-screenshot.webp",
+        alt: "Figma file showing DishDecoder's onboarding, camera, and recipe screens designed and annotated before development",
+        caption: "DishDecoder, designed in Figma before development.",
+        width: 1600,
+        height: 1072,
+      },
+      {
+        type: "image",
+        src: "/images/builds/baseline/figma-working-screenshot.png",
+        alt: "Figma file showing Baseline's onboarding, home timeline, settings, and progress screens designed before development",
+        caption: "Baseline, designed in Figma before development.",
+        width: 2000,
+        height: 1295,
+      },
+    ],
+  },
+  {
+    number: "04",
     title: "Designing for Millions",
     blocks: [
       {
