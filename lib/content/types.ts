@@ -55,3 +55,9 @@ export type Writing = {
   url: string;
   publication: string;
 };
+
+export type ProcessStage = {
+  number: string;
+  title: string;
+  blocks: ContentBlock[];
+};

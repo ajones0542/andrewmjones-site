@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Reveal from "@/components/Reveal";
 import DesignRow from "@/components/DesignRow";
 import { designPieces, writings } from "@/lib/content/design";
@@ -20,6 +21,18 @@ export default function DesignPage() {
           Design consulting and projects of personal interest, plus some
           writing on the topic.
         </p>
+        <Link
+          href="/design/process"
+          className="group mt-4 inline-flex items-center gap-2 font-mono text-sm uppercase tracking-wide text-indigo transition-colors hover:text-ink"
+        >
+          How I design, stage by stage
+          <span
+            aria-hidden
+            className="transition-transform duration-300 group-hover:translate-x-1"
+          >
+            &rarr;
+          </span>
+        </Link>
       </Reveal>
 
       <div className="mt-10 border-t border-hairline">
