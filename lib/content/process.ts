@@ -35,7 +35,7 @@ export const processStages: ProcessStage[] = [
       {
         type: "text",
         paragraphs: [
-          "The clearest example is The Cole Group, an executive search firm where I was the only PM, and design was mine to own too. Clients (mostly first-time CMO and CRO hirers) were slow to make a decision, so the first step was understanding why, not guessing.",
+          "At The Cole Group, an executive search firm where I was the only PM, design was mine to own too. Clients (mostly first-time CMO and CRO hirers) were slow to make a decision, so the first step was understanding why, not guessing.",
           "I interviewed every recruiter, executive assistant, and accounting staffer, sat in on client meetings, and worked through years of historical Salesforce data. That surfaced a task flow mapping the recruiting process end to end and the specific points of friction in it, refined over several rounds of feedback with founders and recruiters.",
         ],
       },
