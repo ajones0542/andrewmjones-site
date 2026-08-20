@@ -3,20 +3,20 @@ import { ProcessStage } from "./types";
 export const processStages: ProcessStage[] = [
   {
     number: "01",
-    title: "Where it started: Tradecraft",
+    title: "Tradecraft",
     blocks: [
       {
         type: "text",
         paragraphs: [
-          "I learned product design formally at Tradecraft, a three-month full-time bootcamp for product designers. The curriculum was design thinking end to end: empathy interviews, task flows, card sorting, personas, and Jobs-to-be-Done, then applying all of it under real deadlines rather than in the abstract.",
-          "That wasn't theoretical for long. I worked with three seed-stage startups during and after the program, embedded with founding teams on live products. Two are documented in more detail elsewhere on this site: HEARD, a private social network for teachers and parents already live in six schools, and Fawn, a local vendor marketplace connecting shoppers with nearby merchants.",
+          "I learned product design formally at Tradecraft, a three-month full-time bootcamp for product designers. The curriculum was design thinking end to end: interviews, task flows, card sorting, personas, and Jobs-to-be-Done, then applying all of it under real deadlines rather than in the abstract.",
+          "I worked with three seed-stage startups during and after the program, embedded with founding teams on live products: HEARD, a private social network for teachers and parents already live in six schools, and Fawn, a local vendor marketplace.",
         ],
       },
       {
         type: "image",
         src: "/images/design/heard/affinity-mapping.png",
         alt: "Andrew organizing research feedback into affinity groups on a whiteboard",
-        caption: "Sorting HEARD's user research into affinity groups — a habit from Tradecraft that stuck.",
+        caption: "Sorting HEARD's user research into affinity groups.",
         width: 1166,
         height: 874,
       },
