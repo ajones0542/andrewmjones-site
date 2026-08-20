@@ -8,7 +8,7 @@ export const processStages: ProcessStage[] = [
       {
         type: "text",
         paragraphs: [
-          "I learned product design formally at Tradecraft, a three-month full-time bootcamp for product designers. The curriculum covered design thinking end to end: interviews, task flows, card sorting, personas, and Jobs-to-be-Done.",
+          "Tradecraft is a three-month full-time bootcamp for product designers I attended after feeling the need to improve my design skills while building a side project-turned-startup. The curriculum covered design thinking end to end: interviews, task flows, card sorting, personas, and Jobs-to-be-Done.",
           "I worked with three seed-stage startups during and after the program, embedded with founding teams on live products: HEARD, a private social network for teachers and parents already live in six schools, and Fawn, a local vendor marketplace.",
         ],
       },
