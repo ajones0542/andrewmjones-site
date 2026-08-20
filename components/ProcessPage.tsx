@@ -47,14 +47,8 @@ export default function ProcessPage() {
       <Reveal delayMs={60}>
         <div className="mt-16 flex flex-wrap items-center gap-4 border-t border-hairline pt-8">
           <Link
-            href="/design"
-            className="inline-flex items-center gap-2 rounded-md bg-indigo px-5 py-3 font-mono text-sm uppercase tracking-wide text-paper transition-colors hover:bg-indigo-dim"
-          >
-            See all design explorations &rarr;
-          </Link>
-          <Link
             href="/work"
-            className="font-mono text-sm uppercase tracking-wide text-mist transition-colors hover:text-ink"
+            className="inline-flex items-center gap-2 rounded-md bg-indigo px-5 py-3 font-mono text-sm uppercase tracking-wide text-paper transition-colors hover:bg-indigo-dim"
           >
             Product case studies &rarr;
           </Link>

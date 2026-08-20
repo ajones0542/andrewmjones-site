@@ -8,7 +8,7 @@ export const processStages: ProcessStage[] = [
       {
         type: "text",
         paragraphs: [
-          "I learned product design formally at Tradecraft, a three-month full-time bootcamp for product designers. The curriculum was design thinking end to end: interviews, task flows, card sorting, personas, and Jobs-to-be-Done, then applying all of it under real deadlines rather than in the abstract.",
+          "I learned product design formally at Tradecraft, a three-month full-time bootcamp for product designers. The curriculum covered design thinking end to end: interviews, task flows, card sorting, personas, and Jobs-to-be-Done.",
           "I worked with three seed-stage startups during and after the program, embedded with founding teams on live products: HEARD, a private social network for teachers and parents already live in six schools, and Fawn, a local vendor marketplace.",
         ],
       },
@@ -35,15 +35,15 @@ export const processStages: ProcessStage[] = [
       {
         type: "text",
         paragraphs: [
-          "At The Cole Group, an executive search firm where I was the only PM, design was mine to own too. Clients (mostly first-time CMO and CRO hirers) were slow to make a decision, so the first step was understanding why, not guessing.",
-          "I interviewed every recruiter, executive assistant, and accounting staffer, sat in on client meetings, and worked through years of historical Salesforce data. That surfaced a task flow mapping the recruiting process end to end and the specific points of friction in it, refined over several rounds of feedback with founders and recruiters.",
+          "At The Cole Group, an executive search firm, I was the only PM, and design was mine to own too. Clients, mostly first-time CMO and CRO hirers, were slow to make a hiring decision.",
+          "I interviewed every recruiter, executive assistant, and accounting staffer, sat in on client meetings, and worked through years of historical Salesforce data. That produced a task flow mapping the recruiting process end to end and the specific points of friction in it, refined over several rounds of feedback with founders and recruiters.",
         ],
       },
       {
         type: "image",
         src: "/images/case-studies/cole-group/TCG-Search-Process-Challenges-484x1024.png",
         alt: "Task flow identifying the core recruiting process from start to finish, highlighting points of friction",
-        caption: "The task flow I built to map the recruiting process and pinpoint friction — the artifact that shaped everything downstream.",
+        caption: "The task flow I built to map the recruiting process and pinpoint friction.",
         width: 484,
         height: 1024,
         size: "large",
@@ -52,12 +52,38 @@ export const processStages: ProcessStage[] = [
   },
   {
     number: "03",
+    title: "Build it myself, 0 to 1",
+    blocks: [
+      {
+        type: "text",
+        paragraphs: [
+          "DishDecoder, an AI photo-to-recipe app, and Baseline, a dopamine-reset app for focus, were both designed screen by screen in Figma before I wrote a line of Swift, then built and shipped to the App Store.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/images/builds/dishdecoder/figma-working-screenshot.webp",
+        alt: "Figma file showing DishDecoder's onboarding, camera, and recipe screens designed and annotated before development",
+        width: 1600,
+        height: 1072,
+      },
+      {
+        type: "image",
+        src: "/images/builds/baseline/figma-working-screenshot.png",
+        alt: "Figma file showing Baseline's onboarding, home timeline, settings, and progress screens designed before development",
+        width: 2000,
+        height: 1295,
+      },
+    ],
+  },
+  {
+    number: "04",
     title: "Turn research into wireframes, then interfaces",
     blocks: [
       {
         type: "text",
         paragraphs: [
-          "A personal example of the full loop: after my wife and I ran into friction using Zillow's app while house-hunting, I usability-tested it with seven participants, redesigned the confusing filter and price-slider UI, then re-tested with seven new people. The issues that showed up in every original session didn't appear once in the redesign.",
+          "After my wife and I ran into friction using Zillow's app while house-hunting, I usability-tested it with seven participants, redesigned the filter and price-slider UI, then re-tested with seven new people. The issues that showed up in every original session didn't appear once in the redesign.",
         ],
       },
       {
@@ -78,66 +104,20 @@ export const processStages: ProcessStage[] = [
     ],
   },
   {
-    number: "04",
-    title: "Build it myself, 0 to 1",
-    blocks: [
-      {
-        type: "text",
-        paragraphs: [
-          "Where I've gone further is shipping interfaces myself, end to end. DishDecoder (an AI photo-to-recipe app) and Baseline (a dopamine-reset app for focus) were both designed screen by screen in Figma before I wrote a line of Swift, then built and shipped to the App Store.",
-        ],
-      },
-      {
-        type: "image-pair",
-        images: [
-          {
-            src: "/images/builds/dishdecoder/figma-working-screenshot.webp",
-            alt: "Figma file showing DishDecoder's onboarding, camera, and recipe screens designed and annotated before development",
-            width: 1600,
-            height: 1072,
-          },
-          {
-            src: "/images/builds/baseline/figma-working-screenshot.png",
-            alt: "Figma file showing Baseline's onboarding, home timeline, settings, and progress screens designed before development",
-            width: 2000,
-            height: 1295,
-          },
-        ],
-      },
-      {
-        type: "image-pair",
-        images: [
-          {
-            src: "/images/builds/dishdecoder/main-recipe-screen.webp",
-            alt: "DishDecoder recipe screen showing a French apple tart with ingredients and prep steps",
-            width: 393,
-            height: 852,
-          },
-          {
-            src: "/images/builds/baseline/timeline-hero.webp",
-            alt: "Baseline day timeline showing Morning Routine, a locked Focus Block, Reward Time, and Wind Down",
-            width: 640,
-            height: 1385,
-          },
-        ],
-      },
-    ],
-  },
-  {
     number: "05",
     title: "Owning UX under real constraints",
     blocks: [
       {
         type: "text",
         paragraphs: [
-          "Rolodex, The Cole Group's internal recruiting tool, isn't the most polished interface I've shipped, and that wasn't an accident. I built it on some rough initial mockups the founders had put together, nothing close to a design system, and made a deliberate call: it was an internal tool for a handful of recruiters, not a customer-facing product, so I prioritized UX and workflow logic (what a recruiter needed to see next, how information should flow) over visual polish.",
+          "Rolodex, The Cole Group's internal recruiting tool, was built on rough initial mockups the founders had put together, not a design system. It was an internal tool for a handful of recruiters, not a customer-facing product, so I prioritized UX and workflow logic over visual polish.",
         ],
       },
       {
         type: "image",
         src: "/images/case-studies/cole-group/TCG-SRP-1024x775.png",
         alt: "Rolodex search results page with candidate filtering and segmentation",
-        caption: "Rolodex's search results page — function first.",
+        caption: "Rolodex's search results page.",
         width: 1024,
         height: 775,
       },
@@ -151,19 +131,19 @@ export const processStages: ProcessStage[] = [
   },
   {
     number: "06",
-    title: "Knowing when to bring in a design partner",
+    title: "Designing for Millions",
     blocks: [
       {
         type: "text",
         paragraphs: [
-          "Project Room, Brightidea's collaborative workspace feature, is the most recent example, and the one where I leaned the other way: bringing in a design partner rather than owning the pixels myself. Some customer teams were managing complex ideas with tools entirely outside our platform, so I sourced comparable patterns from what they were already using as workarounds (Notion, Dropbox, and others), then built initial wireframes and mockups in Figma to pin down the direction before handing them off.",
+          "Brightidea's innovation management platform reaches millions of end users at enterprise customers including Nike, Amazon, and Merck. Project Room was a collaborative workspace feature within it: some customer teams were managing complex ideas with tools entirely outside the platform, so I sourced comparable patterns from what they were already using as workarounds (Notion, Dropbox, and others), then built initial wireframes and mockups in Figma to pin down the direction before handing them off to a design partner for further refinement.",
         ],
       },
       {
         type: "image",
         src: "/images/case-studies/brightidea/poc-canvas.jpg",
         alt: "Early Project Room proof of concept, showing the Project Room sidebar (Brainstorm Concepts, Empathy Mapping, Business Model Canvas, Strategic Memo) and a business model canvas whiteboard",
-        caption: "My early pass: initial wireframes for the Project Room sidebar and canvas.",
+        caption: "Initial wireframes for the Project Room sidebar and canvas.",
         width: 2048,
         height: 1107,
       },
@@ -171,7 +151,7 @@ export const processStages: ProcessStage[] = [
         type: "image",
         src: "/images/case-studies/brightidea/ga-project-room-list.jpg",
         alt: "Project Room list view in Brightidea after general availability release, showing multiple active, named project rooms",
-        caption: "What shipped at general availability, after my design partner's refinement passes.",
+        caption: "What shipped at general availability, after a design partner's refinement passes.",
         width: 2048,
         height: 843,
       },
